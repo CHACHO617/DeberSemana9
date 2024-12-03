@@ -1,7 +1,7 @@
 public class ConversorUnidades {
 
   public Double metrosACm(double metros) {
-    return metros * 100; //Metros a centimetros
+    return metros * 100; 
   }
 
   public Double metrosAm(double metros) {
