@@ -10,10 +10,6 @@ package conversorunidades;
  */
 
 public final class ConversorUnidades {
-  
-  private ConversorUnidades(){
-      //Prevent instantiation
-  }
 
   private static final double CM_PER_METER = 100;
   private static final double MM_PER_CM = 10;
@@ -21,15 +17,17 @@ public final class ConversorUnidades {
 
   /**
    * Converts meters to centimeters.
+   * 
    * @param metros the value in meters to convert
    * @return the equivalent value in centimeters
    */
   public static Double metrosACm(final double metros) {
-    return metros * CM_PER_METER; 
+    return metros * CM_PER_METER;
   }
 
   /**
    * Converts meters to milimiters.
+   * 
    * @param metros the value in meters to convert
    * @return the equivalent value in milimeters
    */
@@ -39,6 +37,7 @@ public final class ConversorUnidades {
 
   /**
    * Converts centimeters to milimeters.
+   * 
    * @param centimetros the value in meters to convert
    * @return the equivalent value in milimeters
    */
@@ -48,6 +47,7 @@ public final class ConversorUnidades {
 
   /**
    * Milimeters to meters.
+   * 
    * @param milimetros the value in meters to convert
    * @return the equivalent value in meters
    */

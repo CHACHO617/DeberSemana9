@@ -1,4 +1,4 @@
-import conversorUnidades.ConversorUnidades;
+import conversorunidades.ConversorUnidades;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
@@ -43,16 +43,15 @@ public class ConvertidorUnidadesTest {
   }
 
   @Test
-  public void centimetrosAml(){
+  public void centimetrosAml() {
     ConversorUnidades conversor = new ConversorUnidades();
     double resultado = conversor.centimetrosAMilimetros(2.25);
 
-
     assertEquals(22.5, resultado, "El resultado debe ser 12.6 ml");
 
     assertEquals(22.5, resultado, "El resultado debe ser 12.6 ml");
-  
-}
+
+  }
 
   @Test
   public void milimetrosAMetros() {
