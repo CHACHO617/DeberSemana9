@@ -11,8 +11,19 @@ package conversorunidades;
 
 public final class ConversorUnidades {
 
+  /**
+   * These are variables.
+   */
   private static final double CM_PER_METER = 100;
+
+  /**
+   * These are variables.
+   */
   private static final double MM_PER_CM = 10;
+
+  /**
+   * These are variables.
+   */
   private static final double MM_PER_METER = 1000;
 
   /**
